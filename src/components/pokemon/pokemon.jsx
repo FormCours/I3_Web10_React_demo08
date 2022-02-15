@@ -7,7 +7,7 @@ const Pokemon = ({name, legendary, habitat, captureRate, flavorText}) => {
                 <p>Pokemon Légendaire :o</p>   
             )}
 
-            <p>{habitat}</p>
+            <p>Habitat : {habitat ?? 'Inconnu'}</p>
             <p>{captureRate}</p>
 
             <p>{flavorText}</p>
